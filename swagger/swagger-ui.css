@@ -144,9 +144,7 @@
 .swagger-ui [type=reset],
 .swagger-ui [type=submit],
 .swagger-ui button,
-.swagger-ui html [type=button] {
-	-webkit-appearance: button
-}
+
 
 .swagger-ui [type=button]::-moz-focus-inner,
 .swagger-ui [type=reset]::-moz-focus-inner,
@@ -197,7 +195,6 @@
 }
 
 .swagger-ui [type=search] {
-	-webkit-appearance: textfield;
 	outline-offset: -2px
 }
 
@@ -3378,11 +3375,6 @@
 	.swagger-ui .fw9-l {
 		font-weight: 900
 	}
-}
-
-.swagger-ui .input-reset {
-	-webkit-appearance: none;
-	-moz-appearance: none
 }
 
 .swagger-ui .button-reset::-moz-focus-inner,
