@@ -4,19 +4,12 @@ env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
-
-
 on:
   push:
     branches:
       - main
 
-
-
 jobs:
-
-
-
   job1:
     name: CI - Build e criação do artefato
     runs-on: ubuntu-latest
@@ -45,9 +38,6 @@ jobs:
           name: artefato
           retention-days: 1
           path: ./
-
-
-
 
   job2:
     name: CD - Deploy na Vercel
